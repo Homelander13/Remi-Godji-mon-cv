@@ -1,0 +1,74 @@
+
+
+body {
+    background-image: url(OneDrive/Images/images/Spider-Man-Sony.webp); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* Texte en blanc pour contraster avec le fond */
+}
+@font-face {
+    font-family: 'SpiderManFont'; /* Nom de la police */
+    src: url('fonts/spiderman-font.woff') format('woff'); /* Chemin vers le fichier de police */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Appliquer la police de caractères à certains éléments de texte */
+body, h1, h2, p {
+    font-family: 'SpiderManFont', sans-serif; /* Utilisez la police de caractères Spider-Man */
+}
+/* Style pour l'en-tête */
+header {
+    background-color: rgba(255, 255, 255, 0.); /* Rouge caractéristique de Spider-Man */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style pour le titre du CV */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+section {
+    background-color: rgba(255,255, 255,0); 
+    padding: 20px;
+    margin: 20px 10%;
+    border: 2px solid #FF2400; /* Bordure rouge */
+    border-radius: 5px;
+}
+
+/* Style pour les titres de section */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* Rouge Spider-Man */
+}
+
+/* Style pour les listes */
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style pour les liens hypertexte */
+a {
+    color: #00a6ff; /* Rouge Spider-Man pour les liens */
+    text-decoration: underline;
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
